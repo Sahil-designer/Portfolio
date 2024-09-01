@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Kumar - Design Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #111;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #111;
+            margin-bottom: 20px;
+        }
+        .work-item {
+            margin-bottom: 20px;
+        }
+        .work-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .work-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .work-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            font-size: 1rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #fff;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sahil Kumar</h1>
+        <p>Design Portfolio</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">My Work</a>
+        <a href="#experience">Work Experience</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sahil Kumar, a passionate UI/UX designer with a keen eye for detail and a love for crafting beautiful, user-friendly designs. With experience in both web and mobile design, I strive to create products that are not only aesthetically pleasing but also provide an excellent user experience.</p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="work-item">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1 Title</h3>
+            <p>A brief description of what this project is about, the tools used, and the impact it had.</p>
+        </div>
+        <div class="work-item">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2 Title</h3>
+            <p>A brief description of what this project is about, the tools used, and the impact it had.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p>Below is a brief summary of my professional experience:</p>
+        <ul>
+            <li><strong>Company Name:</strong> Job Title (Year - Year)</li>
+            <li><strong>Company Name:</strong> Job Title (Year - Year)</li>
+            <li><strong>Company Name:</strong> Job Title (Year - Year)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>If you'd like to discuss a project or just want to say hello, feel free to reach out!</p>
+            <p>Email: sahil@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sahil Kumar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
